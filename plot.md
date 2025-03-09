@@ -117,3 +117,12 @@ Loss of Electronic Trails & Human Experience
 文明の袋小路
 
 武器だけでなく、未来人の思念も送られてくる
+
+動物の行動に一切反応を示さない
+
+未来から来たと考えられる理由:
+- 通信手段が発見できない
+- 軍の中枢部分は攻略しない
+- 常に先回り 裏をかけない
+
+以下、Large Spatiotemporal Transfer Module, LSTM
