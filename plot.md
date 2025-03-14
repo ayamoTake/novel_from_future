@@ -125,7 +125,7 @@ Loss of Electronic Trails & Human Experience
 - 軍の中枢部分は攻略しない
 - 常に先回り 裏をかけない
 
-以下、Large Spatiotemporal Transfer Module, LSTM
+Large Spatiotemporal Transfer Module, LSTM
 
 TODO: 作戦番号の付与
 
@@ -135,13 +135,14 @@ v.s.
 パラドックスを起こすために歴史を破壊する
 
 矛の会 英名
-
-todo:
-情報の送信が可能なことを前もって
-
 当局による記憶操作や消極的作戦の反発により生まれた
 解体されるもいくつかの後継団体を持つ
+
+todo:
+- [x] 我が軍 -> 当局, 本軍
+- [x] Chords Hanna の専門
 
 用語:
 
 現時代
+
