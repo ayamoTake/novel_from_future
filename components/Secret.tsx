@@ -3,3 +3,18 @@ export default function Secret() {
         <span class="inline-block w-10 h-4 bg-black"></span>
     );
 }
+
+export const insertSecret = (part: string, idx: number) => {
+    if (idx == 0) {
+        return <span key={idx}>{part}</span>;
+    }
+    return (
+        <>
+            <Secret key={idx}/>
+            <span key={idx + 1}>{part}</span>
+        </>
+    );
+}
+export const toSecret = (paraStr: string) => {
+    return paraStr.split("***").map(insertSecret);
+};
