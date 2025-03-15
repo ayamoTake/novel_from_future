@@ -33,7 +33,7 @@ export default async function Home() {
         subject: "Unknown",
         from: "sakaguchi@example.com",
         To: () => <span><Secret/>@example.com</span>,
-        date: "2032-01-0 10:00 AM",
+        date: "2032-01-01 00:00 AM",
         body: body_txt,
     };
 
