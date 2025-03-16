@@ -1,6 +1,6 @@
 import { useState, useEffect } from "preact/hooks";
 
-export default function MailView({ subject, from, To, date, body }) {
+export default function MailView({ subject, from, To, date, body, children }) {
   return (
     <div class="p-4 border rounded-lg shadow-lg max-w-2xl mx-auto">
       <h2 class="text-xl font-bold">{subject}</h2>
@@ -10,6 +10,7 @@ export default function MailView({ subject, from, To, date, body }) {
       <hr class="my-2" />
       <p class="mt-2 whitespace-pre-wrap">{body}</p>
       <hr class="my-2" />
+      {children}
     </div>
   );
 }

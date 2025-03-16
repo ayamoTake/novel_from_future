@@ -57,6 +57,10 @@ Thomas Albert
 
 # 報告書 12_1161番 [処理済み] Ratcliffe, Jonathan, et al. "A Proposal for Storage Circuit Memory Against LETHE". 1st ed. Oslo: *** Pless, 2052. 抜粋
 
+Abstruct
+
+LETHE による被害を最小限に防ぐための対策として, 人類の認知活動の創作物を保存する活動が行われてきた. しかし, NOX の遺伝的速度の予測によると, 文明の再起は困難である. 我々は認知活動の成果物としての作品の保存に加え, 認知活動を模倣したユニットの保存を重視し, 実用的な回路記憶管理システムの提案を行う.
+
 Introduction
 
 2042年の初めから世界の主要都市で同時発生した電子的痕跡と人間の経験の消失 (Loss of Electronic Trails & Human Experience, LETHE) は今世紀最大のトピックであると数多くの分野で重大な位置づけをされてきた[^1].
