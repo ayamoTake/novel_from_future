@@ -24,7 +24,9 @@ export default async function Home() {
             <hr class="border-black"/>
             {chu_txt.split("\n\n").map((para) => <p>{toSecret(para)}</p>)}
             <List>
-                <Link href="/">index</Link>
+                <li><Link href="/01_letters">Prev</Link></li>
+                <li><Link href="/">index</Link></li>
+                <li><Link href="/03_index">Next</Link></li>
             </List>
         </div>
     );

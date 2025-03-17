@@ -7,6 +7,8 @@ export default function App({ Component }: PageProps) {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>novel-from-future</title>
         <link rel="stylesheet" href="/styles.css" />
+        <link rel="apple-touch-icon" type="image/png" href="/apple-touch-icon-180x180.png"/>
+        <link rel="icon" type="image/png" href="/icon-192x192.png"/>
       </head>
       <body>
         <Component />

@@ -81,7 +81,9 @@ export default async function Home() {
           <ImgComp {...imgData}/>
         </MailView>
         <List>
-          <Link href="/">index</Link>
+          <li></li>
+          <li><Link href="/">index</Link></li>
+          <li><Link href="/02_interview">Next</Link></li>
         </List>
       </div>
     );

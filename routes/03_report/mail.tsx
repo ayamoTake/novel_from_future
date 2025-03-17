@@ -14,9 +14,6 @@ export default async function Home() {
     return (
       <div>
         <MailView {...mailData} children={""}/>
-        <List>
-          <Link href="/">index</Link>
-        </List>
       </div>
     );
 }
