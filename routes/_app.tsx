@@ -10,7 +10,7 @@ export default function App({ Component }: PageProps) {
         <link rel="apple-touch-icon" type="image/png" href="/apple-touch-icon-180x180.png"/>
         <link rel="icon" type="image/png" href="/icon-192x192.png"/>
       </head>
-      <body>
+      <body class="bg-gray-100">
         <Component />
       </body>
     </html>

@@ -12,7 +12,7 @@ export function Link({ href, children }) {
 export function List({ children }) {
     return(
         <ul
-            class="mb-12 max-w-2xl mx-auto flex justify-between"
+            class="mt-8 mb-12 max-w-2xl mx-auto flex justify-between"
         >
             {children}
         </ul>

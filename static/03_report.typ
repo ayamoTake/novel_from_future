@@ -1,5 +1,5 @@
 #set page(paper: "a4")
-#set page(margin: (y:5.8em))
+#set page(margin: (y:5.7em))
 
 #set text(font: ("libertinus serif", "Harano Aji Mincho"))
 #set par(first-line-indent: (amount: 1em, all: true))
@@ -50,7 +50,7 @@ NOX は宿主の体温とミネラルを用いて, さらに新しい個体を�
 #Secret は事件発生の一端を担いながらも, 次に来る世界の秩序および人類の仕事の積み重ねに寄与した.
 
 しかし, #Secret 財団による資料の保存は文献と芸術作品にとどまり, 全ての人間の認知活動を保存したものとはとても言えない.
-本稿では, 人の中枢神経の状態を逐次的にモニタリングする, Central Nervous System Interface, CNS-I を用いて収集した回路記憶を LETHE の影響の少ない媒体に格納する方法を提案し, 有用性と課題を示す.
+本稿では, 人の中枢神経の状態を逐次的にモニタリングする中枢神経系インターフェイス (Central Nervous System Interface, CNS-I) を用いて収集した回路記憶を LETHE の影響の少ない媒体に格納する方法を提案し, 有用性と課題を示す.
 
 人類の認知活動の記録は専ら創作物に限定されてきた.
 しかし, LETHE の影響が全世界的に確認され, 影響を最小限に抑えるための施設でさえも, NOX の遺伝的速度に対応することが困難になってきている#num[3].

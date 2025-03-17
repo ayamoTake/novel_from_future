@@ -1,6 +1,6 @@
 export default function Secret() {
     return(
-        <span class="inline-block w-10 h-4 bg-black"></span>
+        <span class="inline-block w-10 h-5 bg-black align-text-bottom"></span>
     );
 }
 

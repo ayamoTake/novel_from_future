@@ -5,9 +5,9 @@
 import * as $_01_letters from "./routes/01_letters.tsx";
 import * as $_02_interview from "./routes/02_interview.tsx";
 import * as $_03_index from "./routes/03_index.tsx";
+import * as $_03_report_layout from "./routes/03_report/_layout.tsx";
 import * as $_03_report_mail from "./routes/03_report/mail.tsx";
 import * as $_03_report_memo_memonum_ from "./routes/03_report/memo/[memonum].tsx";
-import * as $_03_report_report from "./routes/03_report/report.tsx";
 import * as $_04_noexist from "./routes/04_noexist.tsx";
 import * as $_404 from "./routes/_404.tsx";
 import * as $_app from "./routes/_app.tsx";
@@ -24,9 +24,9 @@ const manifest = {
     "./routes/01_letters.tsx": $_01_letters,
     "./routes/02_interview.tsx": $_02_interview,
     "./routes/03_index.tsx": $_03_index,
+    "./routes/03_report/_layout.tsx": $_03_report_layout,
     "./routes/03_report/mail.tsx": $_03_report_mail,
     "./routes/03_report/memo/[memonum].tsx": $_03_report_memo_memonum_,
-    "./routes/03_report/report.tsx": $_03_report_report,
     "./routes/04_noexist.tsx": $_04_noexist,
     "./routes/_404.tsx": $_404,
     "./routes/_app.tsx": $_app,
