@@ -25,10 +25,15 @@ export function Header() {
 export default function Layout({ Component, state }: PageProps) {
   // do something with state here
   return (
-    <div class="layout">
+    <div class="layout p-2 ">
     <Header/>
-    <div class="m-12 mx-auto max-w-2xl">
+    <div class="m-5 mx-auto max-w-2xl">
       <Component />
+    </div>
+    <hr class="mx-auto max-w-2xl"/>
+    <div class="mx-auto max-w-2xl text-sm text-gray-400">
+      この作品はフィクションです。
+      実在のいかなる個人や団体とも一切関係ありません。
     </div>
     </div>
   );

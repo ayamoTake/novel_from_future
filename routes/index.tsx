@@ -2,7 +2,7 @@ import { toSecret } from "../components/Secret.tsx";
 import { Link } from "../components/Link.tsx";
 
 export function Heading({children}) {
-  return <h2 class="mt-3 font-medium text-lg">{children}</h2>;
+  return <h2 class="mt-3 font-bold text-lg">{children}</h2>;
 }
 
 const characters = [
@@ -12,7 +12,7 @@ const characters = [
   },
   {
     name: "***",
-    description: "2032年時点で中枢となるデータセンターに勤める。"
+    description: "現代の中枢となるデータセンターに勤める。"
   },
   {
     name: "Jams Simons",
@@ -38,18 +38,18 @@ export default function Home() {
       <Heading>あらすじ</Heading>
       <p>
         西暦2032年現在、高機能社会の中枢を担う機関に勤める男はある日、不審なメールを受け取る。
-        そこには男に託された壮大なメッセージと指示が記されていた。
+        そこには男に託された壮大なメッセージとある指示が記されていた。
         男はそのメールに興味を持ち、メールの出所を調べる日々が続く。
         やがてある仮説が浮かび上がり、男は指示を実行することを決意した。
       </p>
       <p>
         男が行動を起こした後の世界は LETHE と呼ばれる文明規模の災害に見舞われる。
         一方、災害に抗うための切り札を模索する研究者は男が設立した施設に集められていた。
-        研究者たちが出した結論はこの文明を諦め、次なる文明が我々の叡智を再発見することを期待するものであった。
+        研究者たちが出した結論はこの文明を諦め、次なる文明によって我々の叡智が再発見されることを期待するものであった。
       </p>
       <p>
         メッセージの真の目的と隠された歴史は災害の影響で永遠に失われるはずであった。
-        しかし、奇妙なことに存在が疑わしい手稿という形であるはずのない歴史が記載されていた。
+        しかし奇妙なことに、存在が疑わしい手稿という形であるはずのない歴史が記載されていた。
         差出人の最後の悪あがきとも取れるそれは、例の施設で全てが過ぎ去った今も極秘に保管されている。
       </p>
       <p>
@@ -64,11 +64,6 @@ export default function Home() {
         本作品に登場する固有名詞を発案する段階において、Chat GPT (GPT-4o mini. OpenAI. 2025-03-17) を使用した。
         詳細については <Link href="https://chatgpt.com/share/67d827ed-c868-8004-8e35-575383546090">こちら</Link> で公開する。
       </p>
-      <hr />
-      <div class=" text-sm text-gray-400">
-        この作品はフィクションです。
-        実在のいかなる個人や団体とも一切関係ありません。
-      </div>
     </>
   );
 }

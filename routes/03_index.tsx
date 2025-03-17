@@ -3,7 +3,7 @@ import {toSecret} from "../components/Secret.tsx";
 export default function Home() {
   return (
     <div>
-    <ul class="m-12 max-w-2xl mx-auto list-disc">
+    <ul class="m-12 max-w-2xl mx-auto list-disc pl-4 ">
       <li><Link href="/03_report/mail">メール</Link></li>
       <li><Link href="/03_report/memo/01">memo_01</Link></li>
       <li><Link href="/03_report/memo/02">memo_02</Link></li>

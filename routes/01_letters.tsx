@@ -1,7 +1,7 @@
 import { useEffect, useState } from "preact/hooks";
 
 import MailView from "../islands/MailView.tsx";
-import Secret from "../components/Secret.tsx";
+import Secret, { toSecret } from "../components/Secret.tsx";
 import {Link, List} from "../components/Link.tsx";
 
 export function Modal({url}) {
@@ -37,16 +37,16 @@ export function Modal({url}) {
 
 export function ImgComp({url, description}) {
 return (<div>
-  <button popovertarget="mypopover" class="bg-gray-100 m-auto rounded-md w-full flex">
+  <button
+    popovertarget="mypopover"
+    class="bg-gray-100 m-auto border-4 rounded-md w-full flex ">
     <div class="
       w-20 h-20 bg-gray-300 m-2 rounded-md
-      flex items-center
-      overflow-hidden
     ">
-    <img popovertarget="mypopover" class="object-cover w-full h-full"
+    <img class="object-cover w-20 h-20"
       src="" alt="No Image" />
     </div>
-    <p class="border-l p-4 " popovertarget="mypopover" >{description}</p>
+    <div class="border-l p-4 text-left break-before-all w-full h-full whitespace-normal break-words " >{description}</div>
   </button>
   <div id="mypopover" popover
     // class="
@@ -60,19 +60,23 @@ return (<div>
 </div>);
 }
 
+const getToEmail = async () => {
+  return await <span><Secret/>@example.com</span>
+}
+
 export default async function Home() {
     const body_txt = await Deno.readTextFile("./static/01_mail_body.txt");
     const mailData = {
         subject: "Unknown",
         from: "sakaguchi@example.com",
-        To: () => <span><Secret/>@example.com</span>,
+        to: "***@example.com",
         date: "2032-01-01 00:00 AM",
         body: body_txt,
     };
 
     const imgData = {
       url: "./deleteImg.png",
-      description: "時が来るまで44GT44KM5aSn5qyh5ZCI44Gn44GZ44CC",
+      description: "5pmC 44GM 5p2l44KL 44G+44Gn 6ZaL44GP 44Gq",
     }
 
     return (
