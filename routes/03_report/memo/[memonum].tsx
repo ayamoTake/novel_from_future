@@ -1,4 +1,5 @@
 import Memo from "../../../components/Memo.tsx"
+import {toSecret} from "../../../components/Secret.tsx"
 import { PageProps, Handlers } from "$fresh/server.ts";
 
 export const handler: Handlers = {
@@ -17,8 +18,12 @@ export const handler: Handlers = {
 
 
 export default function Home(props: PageProps<{ memonum: string, body_txt: string }>) {
-    const { body_txt } = props.data;
+    const body_arr = props.data.body_txt.split("\n\n")
+    .map((para) => para.replace(/\n/g, ""))
+    .map((para, idx) => {
+        return <p>{toSecret(para)}</p>
+    });
     return (
-        <Memo>{body_txt}</Memo>
+        <Memo>{body_arr}</Memo>
     );
 }

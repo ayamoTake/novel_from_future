@@ -12,7 +12,7 @@ const characters = [
   },
   {
     name: "***",
-    description: "現代の中枢となるデータセンターに勤める。"
+    description: "現代の中枢となるデータセンターに勤める。不審なメールの宛先人。"
   },
   {
     name: "Jams Simons",
